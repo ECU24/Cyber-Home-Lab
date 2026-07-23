@@ -5,5 +5,16 @@ This file documents a Security Operations Centre (SOC) home lab I built in Micro
 
 <h2>🎯 Objectives</h2>
 
-- <b>Dart (backend):</b> Data Stroage, User Management & Authentication
-- <b>Flutter (frontend):</b> User Interface
+- Set up a cloud-based SOC environment using Azure infrastructure
+- Deploy an exposed VM (honeypot) to attract real attack traffic
+- Transfer security logs into Microsoft Sentinel via a Log Analytics Workspace (Log Repository)
+- Query the Log Analytics Workspace with KQL to filter data 
+- Enrich failed/successful logon events with geolocation data using a watchlist
+- Build a workbook to visualise attacker origins on a world map
+
+<h2>🏗️ Architecture</h2>
+<p align="center">
+Architecture Diagram: <br/>
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/c4e93afc619923618a8fb7ac90a099c1354ce4e1/SOCLAB-diagram.png">
+<br />
+<br />
