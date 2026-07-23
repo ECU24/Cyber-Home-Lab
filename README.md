@@ -18,3 +18,58 @@ Architecture Diagram: <br/>
 <img src="https://github.com/ECU24/Cyber-Home-Lab/blob/7d3fc027bc8a83732672fea414de228953830b41/SOCLAB-diagram.png">
 <br />
 <br />
+
+<h2>🛠️ Tools & Technologies</h2>
+
+<div align="center">
+  
+| Category | Tool |
+|---|---|
+| Cloud Provider | Microsoft Azure |
+| SIEM | Microsoft Sentinel |
+| Log Storage | Log Analytics Workspace |
+| Query Language | KQL (Kusto Query Language) |
+| Import data | Sentinel Watchlist (Geo-IP dataset) |
+| Visualisation | Sentinel Workbooks |
+| Target VM | Windows 10/Server (RDP exposed) |
+
+</div>
+
+<h2>🚀 Project Walkthrough</h2>
+
+<h3>1. Environment Setup </h3>
+<p align="center">
+Resource Group: <br/>
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/ba7c87c7e944397e66a7ad50ce4e9d9f8a6fc23a/Resource-Group-Screenshot.png">
+
+- Created a Resource Group (EU-SOC-LAB) and Virtual Network (Vnet-SO-LAB)
+- Deployed a Windows VM with RDP exposed to the public internet
+- Disabled the built-in firewall/real-time protection to allow unfiltered attack traffic for observation 
+- Verified access to the VM through the public network using ping
+<br />
+
+<h3>2. Log Ingestion</h3>
+<p align="center">
+Log Analytics Workspace: <br/>
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/df64c159c077478ebc1b1808cdefb30d248319ba/Log%20Analytics%20Workspace.png">
+
+- Connected the VM to Log Analytics Workspace
+- Enabled Security Event log collection 
+- Viewed raw logs on the VM 
+- Verified logon/logoff and failed authentication events were flowing into Sentinel
+<br />
+
+<h3>2. Log Ingestion</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
