@@ -129,6 +129,21 @@ I wasn't expecting so many failed login attempts in such a short window; all of 
 <h3>What would you configure differently in a production environment?</h3>
 I would implement more sophisticated firewall and NSG rules to filter out suspicious activity before it ever reaches the host, features like geo-blocking unlikely regions, rate-limiting repeated failed attempts, and layering in a bastion host or VPN rather than exposing RDP directly to the internet.
 
+<h3>What SOC analyst skills did this reinforce?</h3>
+This project really reinforced my log analysis and KQL skills. Writing queries to filter, summarise, and enrich security event data gave me a genuine taste of what day-to-day SOC analyst work looks like, going beyond just reading alerts to actually investigating and quantifying an attack.
+
+<h2>🙏Credit</h2>
+
+Built by following [Josh Madakor's SOC Home Lab tutorial](https://www.youtube.com/watch?v=g5JL2RIbThM). All analysis and documentation in this repository reflect my own implementation and findings.
+
+<h2>📬 Contact</h2>
+
+- Name: Ethan Umusu
+- [LinkedIn](https://www.linkedin.com/in/ethan-umusu-948658329/)
+- [Email](ethan.umusu@gmail.com)
+
+
+
 
 
 
