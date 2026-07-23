@@ -15,6 +15,6 @@ This file documents a Security Operations Centre (SOC) home lab I built in Micro
 <h2>🏗️ Architecture</h2>
 <p align="center">
 Architecture Diagram: <br/>
-<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/c4e93afc619923618a8fb7ac90a099c1354ce4e1/SOCLAB-diagram.png">
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/7d3fc027bc8a83732672fea414de228953830b41/SOCLAB-diagram.png">
 <br />
 <br />
