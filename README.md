@@ -59,7 +59,20 @@ Log Analytics Workspace: <br/>
 - Verified logon/logoff and failed authentication events were flowing into Sentinel
 <br />
 
-<h3>2. Log Ingestion</h3>
+<h3>3. Geographical Internet Protocol Enrichment</h3>
+<p align="center">
+Geo-IP CSV Dataset: <br/>
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/225d68af53d7c5d2de0862c051f4c40733fd6420/geo-IPDataset.png">
+
+- Imported a geo-IP CSV dataset (55,000 rows) as a Sentinel Watchlist
+
+<p align="center">
+KQL Query to resolve attacker location: <br/>
+<img src="https://github.com/ECU24/Cyber-Home-Lab/blob/225d68af53d7c5d2de0862c051f4c40733fd6420/KQL-query.png">
+
+- Used KQL to join failed/successful logon events against the watchlist to resolve attacker IPs to city/country/lat-long
+
+
 
 
 
